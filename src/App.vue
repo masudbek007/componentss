@@ -27,11 +27,26 @@
     </div>
      
   </div>
+  <Button/>
+  <Modal/>
+  <Input/>
+  <InputOpening/>
+  <Organish/>
+
+  <Test/>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import Test from './components/Components/Tast.vue'
+
+import Button from './components/Components/Button.vue'
+import Texts from './components/Components/Button.vue'
+import Modal from './components/Components/Modal.vue'
+import { ref } from 'vue';  
 import Select from './components/Components/Select.vue';
+import Input from './components/Components/Input.vue';
+import InputOpening from './components/Components/InputOpening.vue';
+import ButtonVue from './components/Components/Button.vue';
 
 const passwordFieldType = ref('password');
 const togglePasswordVisibility = () => {
